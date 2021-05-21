@@ -1,0 +1,193 @@
+body {
+    font-size: 80%;
+    font-family: Helvetica, Arial;
+    letter-spacing: 0.15em;	
+    background-color: #efefef;
+    text-align: -webkit-center;}
+#page {
+    max-width: 1110px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: 4px double #000;
+    background-color: #ffffff;}
+#logo {
+        width: max-content;
+        margin: -20px auto 10px auto;}
+._logo{
+    width: 180px;
+}
+#navigation {
+    width: 1000px;
+    font-family: Bahnschrift, helvetica, Arial;
+    font-size: 14px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;}
+
+._subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: Arial, helvetica;
+    margin-top: -25px;
+    }
+
+ul{
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0px -10px;}
+p {
+    text-align: center;
+    width: 600px; 
+    margin: 20px auto 20px auto; 
+    font-weight: normal;
+    font-family: Arial;
+}
+
+a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;}
+a:hover, a.on {
+    color: #cc3333;
+    background-color: #ffffff;}
+
+._tab_subtitle{
+    text-align: center;
+    font-size: 21px;
+    width: 600px;
+    margin: 38px auto 38px auto;
+    font-weight: normal;
+    text-transform: uppercase;
+        text-decoration: underline;}
+._buy_class{
+    font-size: 17px;
+    margin: 5px 55px;
+}
+._sl_class{
+    font-size: 17px;
+    margin: 5px 65px;
+}
+._sell_class{
+    font-size: 17px;
+    margin: 5px 27px;
+}
+input{
+    margin: 5px 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 4px 4px 4px 20px;
+    font-size: 17px;
+}
+input.disabled{
+    color: black;
+}
+input._sl{
+    margin-left: 67px;
+}
+input._buy{
+    margin-left: 55px;
+}
+._long_head{
+    font-size: 19px;
+    text-align: left;
+    margin: 4px 0px 4px -440px;;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+._long_head1{
+    text-align: right;
+    margin: -26px 0px 10px -95px;;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+._short_buy{
+    margin: 0px 0px 0px 95px;
+}
+._short_buy_1{
+    margin-left: 111px;
+}
+._short_sl{
+    margin: 0px 0px 0px 95px;
+}
+._short_sell{
+    margin: 0px 0px 0px 95px;
+}
+._buy_would{
+    background-color: #e1ffe7;
+    color: black;
+        margin-left: 27px;
+}
+._buy_would_1{
+    margin-left: 54px;
+}
+._buy_would_btn{
+    padding: 5px 20px;
+    font-size: 18px;
+    color: white;
+    margin: 4px 0px 0px 355px;
+    background-color: yellowgreen;
+}
+._sell_would{
+    background-color: #ffe1e1;
+    color: black;
+}
+._sell_would_1{
+    margin-left: 49px;
+}
+._sell_would_btn{
+    padding: 5px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff4343;
+    margin: 4px 0px 0px 230px;
+}
+._input_table{
+    text-align: -webkit-center;
+    margin-top: 33px;
+}
+._risk_reward_meter{
+        text-align: -webkit-center;
+}
+._risk_reward{
+    font-size: 18px;
+}
+._in_per{
+    font-size: 18px;
+    text-align: center;
+}
+._buy_1{
+    margin: 5px 5px 5px 62px;
+    color: black;
+    background-color: #e1ffe7;
+}
+._buy_11{
+    margin-left: 66px;
+    background-color:#ffe1e1;
+    color: black;
+}
+._sl_1{
+    margin-left: 79px;
+    color: black;
+}
+._sl1{
+    margin-left: 83px;
+    color: black;
+}
+._capital_class{
+    font-size: 18px;
+}
+._capital_class1{
+    margin-left: 61px;
+    font-size: 17px;
+}
+label{
+    font-size: 18px;
+}

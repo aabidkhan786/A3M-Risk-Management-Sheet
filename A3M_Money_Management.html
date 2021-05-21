@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>A3M Money Management Sheet</title>
+		<link rel="stylesheet" href="A3M_Money_Management.css">
+		<script src="A3M_Money_Management.js"></script>
+</head>
+<body onchange="position_sizing()" onkeypress="position_sizing()" onclick="position_sizing()" oninput="position_sizing()">
+		<div id="page">
+			<div id="logo">
+				<img src="C:\Users\dell\Downloads\PNG\A3M Trading Logo (1).png" alt="A3M Logo" class="_logo">
+			</div>
+			<ul class="_subtitle">
+				<li><a href="#" class="on">A3M Trading - <em>Let's learn the Finance.</em></a></li>
+			</ul>
+			<ul id="navigation">
+				<li><a href="#" class="on">Money Management Calculator</a></li>
+				<li><a href="#">CPR Calculator & Relationship</a></li>
+				<li><a href="#">Camarilla Equation & Realtionship</a></li>
+			</ul>
+			<div class="_tab_subtitle">
+				<p>Money Management Tools - Position Sizing</p>
+			</div>
+			<div class="_risk_reward_meter">
+					<table class="_capital_class">
+							<tr>
+								<td>Enter Your Capital Amount : </td>
+								<td><input type="number" name="capital_amount" class="_capital_class1" placeholder="₹ 1,00,000" id="_capital" value=""></td>
+							</tr>
+					</table>
+			<div class="_risk_reward_meter">
+				<table>
+						<thead>
+							<tr>
+								<td class="_risk_reward">Enter Your Risk Percentage : </td>
+								<td><input type="number" name="riskpercentage" placeholder="1%" id="_riskpercentage" value=""></td>
+							</tr>
+							<tr>
+								<td class="_risk_reward">Enter Your Reward Percentage : </td>
+								<td><input type="number" name="rewardpercentage" placeholder="2%" id="_rewardpercentage" value=""></td>
+							</tr>
+						</thead>
+					</table>
+				<div style="margin-top: 14px;margin-bottom: -14px;">
+					<tr><td class="_sl_class"><label>Risk Amount : </label><input type="number" name="SLprice" class="_sl_1" id="risk_amt" value="" disabled placeholder="₹ 1,23,456"><label class="_short_buy">Reward Amount : </label><input type="number" id="risk_amt1" name="SLprice" class="_sl1" value="" disabled placeholder="₹ 1,23,456"></td></tr>
+				</div>
+			</div>
+			</div>
+			<div class="_input_table">
+				<table>
+					<p class="_long_head">For Long Trade</p>
+					<p class="_long_head1">For Short Trade</p>
+				<div>
+						<tr><td class="_buy_class"><label>Enter Buy Price : </label><input type="number" name="buyprice" class="_buy" placeholder="₹ 1,23,456" id="buy_price"><label class="_short_buy">Enter Sell Price : </label><input type="number" name="buyprice" class="_buy" placeholder="₹ 1,23,456" id="sell_price"></td></tr>
+						<tr><td class="_sl_class"><label>Enter SL Price : </label><input type="number" name="SLprice" class="_sl" placeholder="₹ 1,23,456" id="bsl_price"><label class="_short_buy">Enter SL Price : </label><input type="number" name="SLprice" class="_sl" placeholder="₹ 1,23,456" id="ssl_price"></td></tr>
+						<tr><td class="_sell_class"><label>Sell Price Would be: </label><input type="number" name="Sellprice" disabled class="_sell_would" id="sell1_price"placeholder="₹ 1,23,456"><label class="_short_buy">Buy Price Would be: </label><input type="number" name="Sellprice" disabled class="_buy_would" id="buy1_price"placeholder="₹ 1,23,456"></td></tr>
+						<!--<tr><td class="_sell_class"><input type="submit" name="sellsubmit" class="_sell_would_btn" value="Find Sell Price"><input type="submit" name="buysubmit" value="Find Buy Price" class="_buy_would_btn"></td></tr>-->
+				</div>
+				<div>
+						<tr><td class="_buy_class"><label>Result Quantity: </label><input type="number" name="buyprice" value="" class="_buy_1" disabled id="buy_quant"placeholder="500"><label class="_short_buy_1">Result Quantity: </label><input type="number" name="buyprice" class="_buy_11" disabled disabled id="sell_quant"placeholder="500"></td></tr>
+				</div>
+				</table>
+			</div>
+		</div>
+		<footer>
+				<p style="font-size: 18px;">For any Queries you can email us at : a3mtraders@gmail.com</p>
+		</footer>
+</body>
+</html>
